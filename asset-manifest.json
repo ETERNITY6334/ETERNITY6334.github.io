@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ighost/static/css/main.e6c13ad2.css",
+    "main.js": "/ighost/static/js/main.752a0808.js",
+    "index.html": "/ighost/index.html",
+    "main.e6c13ad2.css.map": "/ighost/static/css/main.e6c13ad2.css.map",
+    "main.752a0808.js.map": "/ighost/static/js/main.752a0808.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.752a0808.js"
+  ]
+}
