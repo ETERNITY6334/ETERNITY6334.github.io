@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/ighost/static/css/main.31d6cfe0.css",
-    "main.js": "/ighost/static/js/main.2dd2b293.js",
-    "index.html": "/ighost/index.html",
-    "main.2dd2b293.js.map": "/ighost/static/js/main.2dd2b293.js.map"
+    "main.css": "/static/css/main.31d6cfe0.css",
+    "main.js": "/static/js/main.ba877064.js",
+    "index.html": "/index.html",
+    "main.ba877064.js.map": "/static/js/main.ba877064.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.2dd2b293.js"
+    "static/js/main.ba877064.js"
   ]
 }
