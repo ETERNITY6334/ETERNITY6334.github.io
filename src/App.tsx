@@ -1,24 +1,51 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Sidebar from './components/Sidebar';
+import Main from './components/Main';
+import Footer from './components/Footer';
+import useImageGeneration from './hooks/useImageGeneration';
 
 function App() {
+  const {
+    url,
+    submit,
+    modelModal,
+    setModelModal,
+    model,
+    setModel,
+    timer,
+    second,
+    setSecond,
+    handleSubmit,
+    loginModal,
+    setloginModal,
+    loggedIn,
+    setLoggedIn
+  } = useImageGeneration();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='body'>
+      <Sidebar />
+      <Header
+        loginModal={loginModal}
+        setloginModal={setloginModal}
+        loggedIn={loggedIn}
+        setLoggedIn={setLoggedIn}
+      />
+      <Main
+        url={url}
+        submit={submit}
+        modelModal={modelModal}
+        setModelModal={setModelModal}
+        model={model}
+        setModel={setModel}
+        timer={timer}
+        second={second}
+        setSecond={setSecond}
+        handleSubmit={handleSubmit}
+      />
+      <Footer />
     </div>
   );
 }
