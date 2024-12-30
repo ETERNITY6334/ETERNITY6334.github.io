@@ -32,7 +32,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://eternity6334.github.io/index.html",
+  "homepage": "https://eternity6334.github.io/public/index.html",
   "eslintConfig": {
     "extends": [
       "react-app",
