@@ -1,10 +1,15 @@
 import React from 'react';
 import './App.css';
+import Blog from './components/blog/index.tsx';
 
 function App() {
   return (
     <div>
-      <h1>리액트깃허브페이지성공</h1>
+      <h1>개발 기록 저장소</h1>
+      <hr />
+      <Blog />
+      <hr />
+      <h2>프로젝트</h2>
     </div>
   );
 }
